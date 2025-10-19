@@ -40,3 +40,6 @@ set(CMAKE_C_COMPILER ${tools}/arm-linux-gnueabihf-gcc)
 set(CMAKE_CXX_COMPILER  ${tools}/arm-linux-gnueabihf-g++)
 
 重新设置c c++的编译器为交叉编译器
+
+### 添加全局宏定义
+`add_definitions(-Dxxxx)`
